@@ -2,7 +2,7 @@
 
 Good afternoon! I hope you can review and fix this issue. 
 
-When building an android, an incorrect one is generated AndroidManifest.xml config. You can view it in the android/app/src/main folder. It is worth paying attention to the fact that there are two <data> attributes in one intentfilter and the latter overrides all the above options. This affect only android apps. 
+When building an android, an incorrect one is generated AndroidManifest.xml config. You can view it in the android/app/src/main folder. It is worth paying attention to the fact that there are two <data> attributes in one intentfilter and the latter overrides all the above options. This affect only android apps deep linking. 
 
 ![Image](image.png)
 
